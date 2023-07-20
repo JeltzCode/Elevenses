@@ -1,0 +1,61 @@
+.board {
+  background-color: #0B2434;
+  color: whitesmoke;
+  width: 320px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  padding: 25px 35px
+}
+
+.title{
+  font-size: 25px;
+  margin: 5px;
+}
+
+.instructions {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 15px;
+}
+
+.die-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.die-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middle-row-spacer {
+  height: 35px;
+}
+ 
+.roll-btn {
+  background-color: #ca4e4e;
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  text-align: cener;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px auto;
+  margin: 15px;
+  height: 50px;
+  width: 116px;
+}
+
+.roll-btn:focus {
+  outline: none;
+}
+.roll-btn:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
