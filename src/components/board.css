@@ -13,6 +13,7 @@
 
 .title{
   font-size: 25px;
+  letter-spacing: 1px;
   margin: 5px;
 }
 
@@ -42,7 +43,9 @@
   background-color: #ca4e4e;
   color: whitesmoke;
   font-family: 'Karla', sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
   text-align: cener;
   border: none;
   border-radius: 10px;
